@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #000000;
+}
+
+.navbar {
+    position: static; /* Fija la barra de navegación en la parte superior */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Asegura que esté encima de otros elementos */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: rgba(115, 74, 186, 0.2); /* Efecto de transparencia */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px); /* Añade un efecto de desenfoque de fondo */
+    margin: 1rem; /* Margen para separarlo del borde de la pantalla */
+}
+
+.navbar-brand-container {
+    display: flex;
+    align-items: center; /* Alinea la imagen y el texto verticalmente */
+}
+
+.navbar-brand {
+    color: #ffffff;body {
+        margin: 0;
+        font-family: 'Arial', sans-serif;
+        background-color: #000000;
+    }
+    
+    .navbar {
+        position: static; /* Fija la barra de navegación en la parte superior */
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000; /* Asegura que esté encima de otros elementos */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 2rem;
+        background-color: rgba(115, 74, 186, 0.2); /* Efecto de transparencia */
+        border-radius: 15px; /* Bordes redondeados */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(10px); /* Añade un efecto de desenfoque de fondo */
+        margin: 1rem; /* Margen para separarlo del borde de la pantalla */
+    }
+    
+    .navbar-brand-container {
+        display: flex;
+        align-items: center; /* Alinea la imagen y el texto verticalmente */
+    }
+    
+    .navbar-brand {
+        color: #ffffff;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-left: 0.5rem; /* Espaciado entre la imagen y el texto */
+    }
+    
+    .navbar img {
+        height: 40px; /* Ajusta el tamaño de la imagen según sea necesario */
+    }
+    
+    .navbar-links {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .navbar-item {
+        margin-left: 2rem;
+    }
+    
+    .navbar-link {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 1rem;
+        transition: color 0.3s;
+    }
+    
+    .navbar-link:hover {
+        color: #8400ff;
+    }
+    
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 0.5rem; /* Espaciado entre la imagen y el texto */
+}
+
+.navbar img {
+    height: 40px; /* Ajusta el tamaño de la imagen según sea necesario */
+}
+
+.navbar-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-item {
+    margin-left: 2rem;
+}
+
+.navbar-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.navbar-link:hover {
+    color: #8400ff;
+}

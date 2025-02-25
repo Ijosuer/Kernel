@@ -1,0 +1,29 @@
+.card {
+    width: 80%; /* Ancho del contenedor */
+    background-color: rgba(115, 74, 186, 0.2); /* Efecto de transparencia */
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(57, 56, 56, 0.235);
+    display: flex; /* Utilizamos flexbox para los elementos internos */
+    flex-direction: column; /* Alinea los elementos internos en una columna */
+    
+}
+
+.card > * {
+    flex: 1; /* Los elementos internos se expandirán para ocupar todo el espacio disponible */
+}
+
+
+.card-title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #d4af37; /* Color del título */
+    margin-bottom: 10px; /* Espacio entre el título y el texto */
+  }
+  
+  .card-text {
+    font-size: 16px;
+    color: #ffffff; /* Color del texto */
+    margin-bottom: 20px; /* Espacio entre el texto y otros elementos */
+  }
